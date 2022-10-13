@@ -1,0 +1,289 @@
+python libraries :
+1. data manupulation--------- numpy , pandas 
+2. data visualization -------- matplotlib , seaborn , plotly 
+3. machine learning ---------- scikit - leran , sk learn 
+4. deep learing -------- tensorflow , keras ,  pytorch
+
+----------------------------------------------------------------
+
+RULES OF VARIABLES ::
+1. CANT START WITH NUMBER 
+ex. 1='python' ------- not valid , a1='python'----------- valid 
+
+2. NO SPACE 
+a 1 = 'PYTHON'
+
+3. CANT USE SPECIAL CHARACTER 
+a$ = 'hello'; -- invalid 
+a_1 = 'hii'  or  _ = 200 --- valid
+
+4. cant use keyword 
+for = 2.2
+
+--------------------------------------------------------------------
+
+PYTHON OPERATORS
+7 TYPES ::
+1. ARITHMATIC ----------- +,-,*,%,//,**
+
+2. COMPARISON / REALATIONAL OPERATOR -------    >,<, <=,<=,!=,==
+ 
+3. ASSIGNMENT OPERTOR -------   +, +=, -=, *=, /=, //=
+
+4. BITWISE  ------  &, |, ^ 
+ 
+5. LOGICAL OPERATOR  -----  and , or , not 
+ 
+6. IDENTITY OPERATOR --------- is , is not 
+
+7. MEMBERSHIP OPERATOR  ------     in , in not 
+
+--------------------------------------------------------------------
+
+() --------- function, expression , tuple , 
+[] --------- list, indexing , slicing 
+{} --------- set, dictionary 
+<> --------- NO use
+
+-------------------------------------------------------------------
+
+DATA TYPES IN PYTHON  
+1. numeric ---- int ------a=5
+                float----b=5.5
+                complex = 3+5j
+
+2. string ---- str --- a='hello'/ a="hello"/ a='''hiii'''
+                       b="'hello"' (not possible)
+
+3. List -----  list---- my_list =['abc', 5,  5.5 , 2+6i]   
+
+4. Tuple ------ tuple---------- my_tuple = (45, 4.5, 'hii', 'bye')
+
+5. Set -------- set ------------ {1,23,56,50}
+
+6. Dictionary---------- dict{key: value}
+
+7. Boolean --------- True , False
+
+-----------------------------------------------------------------------
+
+1. string ------ immutable(not change)
+---------------
+a. indexing 
+a= 'hello'
+he
+a[satrting point(by default 0):stop(excluding):step(by default 1)]
+a[0:2]
+
+----------------------------------------------------------------------
+
+2. list ------- mutable(change)
+1. []
+2. homo /  hetro
+3. indexing / slicing / loop
+
+function for inserting is list ::
+append ------ insert val in list in last
+extend ------- insert more than 1 val in list in last
+insert ------- insert value antywhere in list 
+pop ------- delete value in list 
+clear ------- clear all the element in list 
+
+-------------------------------------------------------------
+
+3. Tuple (immutable)
+1. ()
+2. comma sep val
+3. homo/hetro
+4. indexing / slicing 
+
+que 1. add element in the given tuple ?
+
+--------------------------------------------------------------
+
+4. set  {}
+1. unordered
+2. indexing / slicing does not use 
+3. unqiue
+4. homo/hetro
+5. use intersection function
+6. use union function 
+7. we use max , min , len also in set 
+
+--------------------------------------------------------------
+
+5. dictionary
+1.unordered
+2. key value pair 
+3. indexing/ slicing not possible 
+4. functionn --- keys, values , items 
+
+-----------------------------------------------------------------
+print function 
+1. seperate and line change function is already define in print 
+
+-------------------------------------------------------------------
+
+3 statements
+1. condition / decision making ----if-elif-else(suites / indentation )
+2. looping -- for and while 
+3. exception handling -------- try , except 
+
+----------------------------------------------------------------
+
+simple if : 
+
+if age < 18 :
+	print('a gift')
+if age  >= 18 and age <=20:
+	print('a gift')
+	print('a task')
+if age > 20:
+print('koi gift nhi hai')
+
+------------------------------------------------------------------
+
+ladder :
+
+
+if age <18:
+	print('a gift')
+elif age>=18 and age<=20:
+	print('a gift')
+	print('a task')
+else: 
+	print('koi gist nhi hai ')
+
+-------------------------------------------------------------------
+
+nested :
+
+
+if today == 'saturday':
+	print('half day work')
+elif today == "sunday":
+	if condition == 'sick':
+		print('take rest')
+else:
+	print('party')
+
+----------------------------------------------------------------
+
+range (start point (including), stop point (excluding), step(by default 1))
+
+------------------------------------------------------
+
+f string / string format ------  use to put the value in string.
+:
+-------------------------------------------------------------
+
+Loop:
+
+1. for loop 
+2. while loop
+
+----------------------------------------------------------------------
+
+function: 
+1. NO i/p NO o/p
+2. No i/p But O/p
+3. i/p but No O/P
+4. O/p and i/p
+------------------------------
+1. taking multiple i/p
+2. returning multiple o/p
+3. keyword argument
+4. default values 
+5. *args ----- always a return tuple 
+6. **kwargs ---------- always return a dictionary
+7. lammda function 
+
+--------------------------------------------------
+
+MODULE:: it is a .py file; example - OS, Math,datetime, numpy(numeric python, mathmatic calculation , 1d,2d,3d array already define)
+packages------- it is a collection a module 
+libraries ------ it is a collection of packages 
+
+----------------------------------------------------------------------
+
+excel file question 
+
+que1. find the longest movie name ?
+que2. find the number of movies which got 10 star rating ?
+que3. how many indutries are there ?
+que4. find the least like comedy movies name ?
+que5. find the longest duration of english movie name ?
+que6. what is the genre of intersteller ? 
+que7. what is the average duration of each genre ?
+que8. what is avrg rating of each industries ?
+que9. find the avrg rating of romantic movies indutries wise ?
+que10.find the list down all the english movies with their respective rating in descending order ? 
+
+-------------------------------------------------------------------------------------------------------
+
+FUNCTION OF THE STRING :: 
+
+1. capitlaize ---- first letter capital
+2. casefold----- lower the string
+3. cat ----- to add a data
+4. center ----- middle the data 
+5. count ---- total no. of the string 
+6. endswith ---- string end what type of character
+7. find ---- poistion of the data work as a count 
+8. get ----- give the first letter of all string (negative indexing is also work , slice not working )
+9. get_dummies ------ divide the catagorical data(imp funtion)
+10.  join(wht will be join) ----- it will add char after every elment in the string 
+11. split(positon) ------ it will split the data at particular position 
+12. 13. lower and upper function 
+14. strip ----- remove the space from the string
+
+unique , nunique , value_counts ----- same
+
+describe functiom ---- give the statistical data 
+
+.T ----- TRANPOSE THE DATA
+
+info ----- give the information about the data(as a counting)
+
+groupby -----  grouped the data
+
+sort_values(behalf of the sorting [by = '   '  , ascending = false]) ---- 
+
+
+-----------------------------------------------------------------------------------
+
+kaggle.com -- make an account
+Github.com -- make an account
+
+------------------------------------------------------------------------------
+
+
+GIT PROCESS 
+-------------
+> create a new repository
+> provide valid name 
+> select public repo
+> finish 
+
+
+GIT COMMAND. (PYTHON TRAINING)
+TYPE CMD IN ADREESS BAR THEN ENTER 
+--------------
+
+Git init        # initialize the git folder  
+git add .        # add all files / folders in git folder 
+git config user.name  "ANAS KHAN"
+git config user.email  "anaskhan93511@gmail.com" 
+git remote add origin  "yourrepolink.git"
+
+git commit -m "anyymessage"
+git push - u origin main 
+
+
+----------------------------------------------------------------------------------------------------
+
+> a function can be assign to be an identifier
+> a function can be taken as input argument as an another function 
+> a function can be define inside a pyhton function 
+> a function can ruturned from a function 
+
