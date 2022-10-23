@@ -1,1 +1,1 @@
-<h1>ML-Training</h1>
+<h1>ML Training</h1>
